@@ -13,6 +13,11 @@
 		C58D9610258B8DF0003AE88B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58D960E258B8DF0003AE88B /* Main.storyboard */; };
 		C58D9612258B8DF3003AE88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58D9611258B8DF3003AE88B /* Assets.xcassets */; };
 		C58D9615258B8DF3003AE88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58D9613258B8DF3003AE88B /* LaunchScreen.storyboard */; };
+		C58D9622258B8E0B003AE88B /* kda-akali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58D961E258B8E0B003AE88B /* kda-akali.jpg */; };
+		C58D9623258B8E0B003AE88B /* kda-kaisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58D961F258B8E0B003AE88B /* kda-kaisa.jpg */; };
+		C58D9624258B8E0B003AE88B /* kda-evelynn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58D9620258B8E0B003AE88B /* kda-evelynn.jpg */; };
+		C58D9625258B8E0B003AE88B /* kda-ahri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58D9621258B8E0B003AE88B /* kda-ahri.jpg */; };
+		C58D9628258B99BB003AE88B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D9627258B99BB003AE88B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		C58D9611258B8DF3003AE88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C58D9614258B8DF3003AE88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C58D9616258B8DF3003AE88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58D961E258B8E0B003AE88B /* kda-akali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kda-akali.jpg"; sourceTree = "<group>"; };
+		C58D961F258B8E0B003AE88B /* kda-kaisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kda-kaisa.jpg"; sourceTree = "<group>"; };
+		C58D9620258B8E0B003AE88B /* kda-evelynn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kda-evelynn.jpg"; sourceTree = "<group>"; };
+		C58D9621258B8E0B003AE88B /* kda-ahri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kda-ahri.jpg"; sourceTree = "<group>"; };
+		C58D9627258B99BB003AE88B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +69,25 @@
 				C58D9608258B8DF0003AE88B /* AppDelegate.swift */,
 				C58D960A258B8DF0003AE88B /* SceneDelegate.swift */,
 				C58D960C258B8DF0003AE88B /* ViewController.swift */,
+				C58D9627258B99BB003AE88B /* DetailViewController.swift */,
 				C58D960E258B8DF0003AE88B /* Main.storyboard */,
 				C58D9611258B8DF3003AE88B /* Assets.xcassets */,
 				C58D9613258B8DF3003AE88B /* LaunchScreen.storyboard */,
 				C58D9616258B8DF3003AE88B /* Info.plist */,
+				C58D961D258B8E0B003AE88B /* KDA */,
 			);
 			path = Project1;
+			sourceTree = "<group>";
+		};
+		C58D961D258B8E0B003AE88B /* KDA */ = {
+			isa = PBXGroup;
+			children = (
+				C58D961E258B8E0B003AE88B /* kda-akali.jpg */,
+				C58D961F258B8E0B003AE88B /* kda-kaisa.jpg */,
+				C58D9620258B8E0B003AE88B /* kda-evelynn.jpg */,
+				C58D9621258B8E0B003AE88B /* kda-ahri.jpg */,
+			);
+			path = KDA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +148,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C58D9615258B8DF3003AE88B /* LaunchScreen.storyboard in Resources */,
+				C58D9622258B8E0B003AE88B /* kda-akali.jpg in Resources */,
 				C58D9612258B8DF3003AE88B /* Assets.xcassets in Resources */,
+				C58D9624258B8E0B003AE88B /* kda-evelynn.jpg in Resources */,
 				C58D9610258B8DF0003AE88B /* Main.storyboard in Resources */,
+				C58D9625258B8E0B003AE88B /* kda-ahri.jpg in Resources */,
+				C58D9623258B8E0B003AE88B /* kda-kaisa.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +167,7 @@
 				C58D960D258B8DF0003AE88B /* ViewController.swift in Sources */,
 				C58D9609258B8DF0003AE88B /* AppDelegate.swift in Sources */,
 				C58D960B258B8DF0003AE88B /* SceneDelegate.swift in Sources */,
+				C58D9628258B99BB003AE88B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
